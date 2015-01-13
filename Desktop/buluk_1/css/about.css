@@ -1,0 +1,209 @@
+
+	#about-header {
+		width: 100%;
+		background-color: #007D3C;
+	}
+		#about-intro {
+			overflow: hidden;
+			max-width: 960px;
+			margin: 0 auto;
+
+		}
+
+			#about-intro  img {
+				width: 30%;
+				margin-left: 5%;
+				max-width: 320px;
+			}
+
+		#intro-description {
+			float: right;
+			display: block;
+			width: 60%;
+			margin-right: 5%;
+
+		}
+
+			#about-intro-title {
+				font-size: 38pt;
+				color: #fff;
+				padding-top: 10%;
+				text-align: center;
+			}
+
+				#about-intro-subt {
+					font-size: 26pt;
+					color: #fff;
+					text-align: center;
+					padding-top: 2%;
+				}
+
+		#buluk-quote {
+			width: 100%;
+			display: block;
+			background-color: #2d2d2d;
+		}
+
+			#buluk-quote-unit {
+				font-size: 22pt;
+				text-align: center;
+				font-weight: 500;
+				padding-top: 25px;
+				padding-bottom: 25px;
+				color: #fff
+			}
+
+
+
+
+/* About Buluk */
+
+		.about-buluk {
+			background-color: #fff;
+			width: 100%;	
+			padding-bottom: 60px;
+		}
+
+			#about-buluk-content {
+				padding-left: 35px;
+				padding-right: 35px; 
+				max-width: 960px;
+				margin: 0 auto;
+			}	
+
+				#about-descript-img img {
+					width: 45%;
+					float: left;
+					margin-right: 20px; 
+					margin-top: 20px;
+					margin-bottom: 10px;
+				}
+
+
+				#about-descript {
+					display: block;
+					position: relative;
+					padding-top: 20px;
+					margin-bottom: 30px;
+				}
+
+
+					#about-descript p {
+						text-align: justify;
+						font-size: 14px;
+						text-justify: inter-word;
+						-webkit-text-justify: inter-word;
+						-moz-text-justify: inter-word;
+						-o-text-justify: inter-word;	
+					}
+
+					#about-descript-unit{
+						margin: 0 auto;
+						position: relative;
+						width: 80%;
+						height: auto
+					}
+
+						#prepa-tec-logo {
+							max-width: 40%;
+							margin: 0 5% 15%;
+							display: block;
+							float: left;
+							opacity: 1;
+							cursor: pointer;
+						}
+
+						#first-logo {
+							max-width: 32%;
+							margin: 0 5% 15%;	
+							display: block;
+							float: right;
+							opacity: 1;
+							cursor: pointer;
+						}
+
+							#prepa-tec-logo:hover {
+								opacity: .7;
+								-webkit-transition: opacity .3s ease-in-out;
+								-moz-transition: opacity .3s ease-in-out;
+								-o-transition: opacity .3s ease-in-out;
+								transition: opacity .3s ease-in-out;
+							}
+
+							#first-logo:hover {
+								opacity: .7;
+								-webkit-transition: opacity .3s ease-in-out;
+								-moz-transition: opacity .3s ease-in-out;
+								-o-transition: opacity .3s ease-in-out;
+								transition: opacity .3s ease-in-out;
+							}
+
+				
+
+
+
+							
+
+
+
+
+
+
+
+
+/* Misión y Visión  
+
+
+					#about-descript-unit-1 {
+						font-size: 18px;
+						font-weight: 300;
+						padding-top: 20px;
+						width: 45%;
+						float: right;
+						padding-right: 8%;
+					}
+
+
+
+
+*/
+
+		.mision {
+			background-color: #eee;
+			padding-bottom: 80px;
+			clear: both;
+		}
+
+			.rocket2 {
+				background-image: url("../img/logos/menu_icons/mision.png");
+				 background-size: 100px;
+				 background-repeat: no-repeat;
+				 background-color: #1E3E71;
+				 border-radius: 50%;
+				 position: relative;
+				 background-position-y: 12px;
+				 background-position-x: 15px;
+			}
+
+			.mision-content {
+				max-width: 960px;
+				margin: 0 auto;
+			}
+
+				.mision-descript {
+					width: 90%;
+					margin: 0 auto;
+					text-align: justify;
+					color: #000;
+				}
+
+					@media screen and (max-width: 540px) {
+						.mision-descript {
+							width: 90%;
+							margin: 0 auto;
+							text-align: justify;
+						}
+					}
+
+
+

@@ -1,0 +1,131 @@
+/* FIRST */
+
+		.first{
+			background-color: #f4f4f4;
+			padding-bottom: 60px;
+		}
+
+			.first-logo {
+				background-image: url("../img/logos/menu_icons/first.png");
+				background-color: #BDB9B9;
+				background-size: 110px;
+				background-repeat: no-repeat;
+				border-radius: 50%;
+				position: relative;
+				background-position-y: 10px;
+				background-position-x: 10px;
+			}
+
+			.first-content {
+				max-width: 960px;
+				margin: 0 auto;
+			}
+
+				.first-descript {
+					width: 90%;
+					margin: 0 auto;
+					text-align: justify;
+				}
+
+					@media screen and (max-width: 540px) {
+						.first-descript {
+							width: 90%;
+							margin: 0 auto;
+							text-align: justify;
+						}
+					}
+
+					.first-logos {
+						max-width: 70%;
+						margin: 0 auto;
+						position: relative;
+						padding: 0 0 0 12%;
+					}
+
+						@media screen and (max-width: 540px) {
+							.first-logos {
+								padding: 0;
+							}
+						}
+
+					.first-logos img {
+						max-width: 30%;
+						margin: 0 2%;
+						display: inline-block;
+						cursor: pointer;
+						opacity: 0.7;
+    					filter: alpha(opacity=70);
+					}
+
+						@media screen and (max-width: 540px) {
+							.first-logos img {
+								max-width: 90%;
+								margin: 30px auto;
+								opacity: 1;
+    							filter: alpha(opacity=100);
+							}
+						}
+
+							.first-logos img:hover {
+								opacity: 1;
+	    						filter: alpha(opacity=100);
+							}
+
+
+
+								#first-logo-wrap {
+									max-width: 28%;
+									display: inline-block;
+									position: relative;
+								}
+
+									@media screen and (max-width: 540px) {
+										#first-logo-wrap {
+										max-width: 55%;
+										margin: 10px auto 10px;
+										}
+									}
+
+
+									@media screen and (max-width: 540px) {
+										#frc-logo-wrap {
+											position: relative;
+											top: 0px;
+											margin-left: 0px;
+										}	
+									}
+
+
+
+
+
+
+
+	/* First Intro */
+
+
+
+		#first-intro {
+			width: 100%;
+			position: relative;
+			display: block;
+		}
+
+		#first-intro img {
+			width: 100%;
+			overflow: hidden;
+			position: relative;
+				
+		} 
+
+
+			#first-intro-unit {
+				height: auto;
+				overflow: hidden;
+			}
+
+
+
+
+
+

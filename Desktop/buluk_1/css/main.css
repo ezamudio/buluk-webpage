@@ -1,0 +1,598 @@
+@font-face {
+    font-family: bulukFaceFont;
+    src: url(../fonts/Moki-Mono.otf);
+    font-weight: 100;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'icomoon';
+        src: url('fonts/icomoon.svg#icomoon') format('svg');
+    }
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Sans-serif;
+}
+
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* Header */
+
+	header {
+		width: 100%;
+		background-color: #34495e;
+		overflow: hidden;
+		position: relative;
+		box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+		padding-bottom: 1%;
+		z-index: 10;
+	}
+
+		/* Logo de Buluk */
+
+		#buluk-logo-header {
+			width: 34%;
+			float: left;
+		}
+
+			.logo {
+				width: 120px;
+				height: 90px;
+				background-image: url("../img/logos/Buluk_logo.png");
+				background-size: cover;
+				border-color: 1px solid #000;
+				float: left;
+				margin-left: 5%;
+				margin-top: 15px;
+				margin-right: 8px;
+			}
+
+			/* Título del Logo */
+
+				#title {
+					display: block;
+					height: 38pt;
+					text-align: left;
+					font-family: bulukFaceFont; 
+					font-size: 38pt;
+					font-weight: 100;
+					text-shadow: rgba(0,0,0,1) 3px 3px 3px;
+					color: #fff;
+					padding-top: 20px;
+					margin-left: 10px;
+					margin-bottom: 10px;
+					letter-spacing: -1pt;
+				}
+
+					#team-number {
+						display: block;
+						text-align: left;
+						left: 85px;
+						font-family: bulukFaceFont;
+						font-size: 16px;
+						color: #fff;
+						font-weight: 200;
+						text-shadow: rgba(0,0,0,1) 2px 2px 2px;
+						letter-spacing: -1pt;
+					}
+
+					#slogan {
+						display: block;
+						text-align: left;
+						font-family: bulukFaceFont;
+						font-size: 16px;
+						color: #fff;
+						font-weight: 200;
+						text-shadow: rgba(0,0,0,1) 2px 2px 2px;
+						letter-spacing: -1pt;
+						margin-top: 10px;
+						margin-left: 85px;
+						position: relative;
+					}
+
+
+
+/* Menu de navegación */
+
+	nav {
+		float: right;
+		position: relative;
+		padding-top: 50px;
+		width: 65%;
+	}
+
+		nav ul {
+			list-style: none;
+			float: right;
+			margin-right: 30px;
+		}
+
+			nav ul li {
+				color: #fff;
+				display: inline-block;
+				margin: 0 0 0 25px;
+			}
+
+
+
+
+		
+
+/* Main section */
+
+
+
+	#main-section {
+		width: 100%;
+
+		/* 
+		padding-top: 47%;
+		top: -8px;
+
+		*/
+	}
+
+	/* Section Header */
+
+		.section-header {
+			max-width: 960px;
+			margin: 0 auto;
+			padding-top: 60px;
+			padding-bottom: 60px;
+		}
+
+			@media screen and (max-width: 540px)  {
+				.section-header {
+					left: 0px;
+				}
+			}
+
+			.section-logos {
+				position: relative;
+				margin: 0 auto;
+				height: 128px;
+				width: 128px;
+				background-color: #BDB9B9;
+				border-radius: 50%;
+			}
+
+				@media screen and (max-width: 540px) {
+					
+					.section-logos {
+						float: none;
+						left: 0px;
+						margin: 0 auto;
+						height: 70px;
+						width: 70px;
+					}
+				}
+
+
+				.section-logos span {
+					font-size: 30px;
+					position: relative;
+					top: 10px;
+					left: 10px;
+				}
+
+					@media screen and (max-width: 540px) {
+						
+						.section-logos span {
+							font-size:40px;
+							top: 15px;
+							left: 15px;
+						}	
+					}
+
+			.section-titles {
+				text-align: center;
+				margin-top: 20px;
+				display: block;
+			}
+
+				@media screen and (max-width: 540px){
+					.section-titles {
+						left: -3px;
+						text-align: center;
+						margin-top: 5px;
+					}
+				}
+
+				.section-sub-titles {
+					text-align: center;
+					margin-top: 10px;
+					display: block;
+				}
+					@media screen and (max-width: 540px){
+					.section-sub-titles {
+						left: -3px;
+						top: 0;
+						text-align: center;
+						margin-top: 10px;
+					}
+				}
+
+
+				.buluk_icon_io img {
+					display: block;
+					position: relative;
+					width: 30px;
+					height: 30px;
+				}
+					@media screen and (max-width: 540px) {
+						.buluk_icon_io img {
+							width: 40px;
+							height: 40px;
+							left: -2px;
+						}
+					}
+
+				.first_icon_io img {
+					display: block;
+					position: relative;
+					width: 45px;
+					height: 30px;
+					left: -7px;
+				}
+					@media screen and (max-width: 540px) {
+						.first_icon_io img {
+							width: 55px;
+							height: 40px;
+						}
+					}
+
+
+	/* Clearfix */
+
+	.clearfix:after {
+	     visibility: hidden;
+	     display: block;
+	     font-size: 0;
+	     content: " ";
+	     clear: both;
+	     height: 0;
+	     }
+	.clearfix { display: inline-block; }
+	/* start commented backslash hack \*/
+	* html .clearfix { height: 1%; }
+	.clearfix { display: block; }
+	/* close commented backslash hack */
+
+
+
+	
+
+
+
+
+	/* Contacto */
+
+		.contact {
+			background-color: #fff;
+			padding-bottom: 40px;
+		}
+
+			.contact-logo {
+				background-image: url("../img/logos/menu_icons/contact.png");
+				background-size: cover;
+				background-color: rgb(232, 85, 41);
+				background-size: 100px;
+				background-repeat: no-repeat;
+				border-radius: 50%;
+				position: relative;
+				background-position-y: 15px;
+				background-position-x: 13px;
+				-webkit-display: flex;
+				-moz-display: flex;
+				display: flex;
+			} 
+	 		
+	 		.contact-content {
+	 			max-width: 960px;
+	 			margin: 0 auto;
+	 		}
+
+		 		
+
+
+
+				/* Email */
+
+				.contact-email form{
+					max-width: 450px;
+					margin: 80px auto 50px;
+					display: none;
+				}
+
+					.contact-email form input, textarea {
+						border: 3px solid rgba(51, 51, 51, 1);
+						width: 100%;
+						padding: 8px;
+						box-sizing: border-box;
+						-webkit-box-sizing: border-box;
+					}
+
+							.contact-email textarea:focus {
+								border-color: #ccc;
+								outline: none;
+							}
+
+							.contact-email input:focus {
+								border-color: #ccc;
+								outline: none;
+							}
+
+						.contact-email textarea {
+							height: 13em;
+						}
+
+						.contact-email label {
+							display: block;
+							margin-bottom: 20px;
+						}
+
+							.contact-email span {
+								display: block;
+							}
+
+
+							.mail-info-contact label {
+								float: left;
+								width: 50%;
+								box-sizing: border-box;
+								-webkit-box-sizing: border-box;
+							}
+
+								.mail-info-contact label:nth-child(1) {
+									padding-right: 5px;
+								}
+
+								.mail-info-contact label:nth-child(2) {
+									padding-left: 5px;
+								}
+
+
+						.send-button {
+							width: 20%;
+						}
+
+							.send-button [type="submit"] {
+								cursor:pointer;
+								font-size: 16px;
+								color: #000;
+								background-color: white;
+								transition: 0.3s;
+							}
+
+								.send-button:hover [type="submit"] {
+									background-color: rgba(51, 51, 51, 1);
+									color: white;
+								}
+
+
+
+
+	/* Footer */
+
+	footer {
+		width: 100%;
+		background-color: #fff;
+	}
+
+		.footer {
+			max-width: 1024px;
+			margin: 0 auto;
+			padding: 2% 1% 3%;
+			display: flex;
+			display: -webkit-flex;
+		} 
+
+			#footer-nav {
+				font-size: 14pt;
+				display: block;
+				flex:1;
+				-webkit-flex:1;
+			}
+				#footer-nav h3, #footer-contact-icon {
+					text-align: center;
+					margin-bottom: 30px;
+					position: relative;
+					font-size: 14pt
+				}
+
+				#footer-nav ul {
+					display: flex;
+					display: -webkit-flex;
+					padding-left: 15px;
+					font-size: 12pt;
+					flex-flow:column nowrap;
+					-webkit-flex-flow:column nowrap;
+					justify-content:center; 
+					-webkit-justify-content:center; 
+				}
+
+			#hr-1 {
+				margin-right: 5%;
+			}
+
+			#hr-2 {
+				margin-left: 5%;
+			}
+
+
+			.contact-icons {
+					flex:1;
+					-webkit-flex:1;
+					margin: 0 auto;
+				}
+
+					.contact-icons-title {
+						text-align: center;
+						margin-bottom: 30px;
+						position: relative;
+					}
+
+		 			.contact-icon-thumb{
+		 				display: inline-block;
+		 				width: 50px;
+		 				height: 50px;
+		 				background-color: #BDB9B9;
+		 				margin: 0 1%;
+		 				border-radius: 50%;
+		 				cursor: pointer;
+		 				transition: .3s;
+		 			}
+
+
+
+			 			.contact-icons ul {
+			 				list-style: none; 
+							min-width: 100%;
+							position: relative;
+							display: -webkit-flex;
+							display: flex;
+							-webkit-justify-content: space-around; 
+			 				justify-content: space-around; 
+							
+			 			}
+
+			 				.contact-icons li  {
+			 					flex: 1;
+			 					-webkit-flex: 1;
+			 				}
+
+			 				.contact-icons span{
+			 					font-size: 22px;
+			 					position: relative;
+			 					top: 15px;
+			 					left: 15px;
+			 					color: rgba(0,0,0,.8);
+			 					transition: 0.3s;
+
+
+			 				}
+
+			 						#tumblr-icon {
+			 							font-size: 22px;
+					 					position: relative;
+					 					top: 15px;
+					 					left: 14px;
+					 					color: rgba(0,0,0,.8);
+					 					transition: 0.3s;
+			 						}
+
+			 							.contact-icon-thumb:hover #tumblr-icon {
+			 								color: #fff;
+					 						color: rgba(255,255,255,1);
+			 							}
+
+			 				.contact-icons-mail {
+			 					max-width: 40%;
+			 					margin: 0 auto;
+			 					position: relative;
+			 					left: 30%;
+			 					padding-bottom: 2%;
+			 				}
+
+			 				.contact-icons-mail span{
+			 					font-size: 36px;
+			 					position: relative;
+			 					top: 16px;
+			 					left: 18px;
+			 					position: relative;
+			 					color: rgba(0,0,0,.8);
+
+			 				}
+
+			 			.contact-icon-thumb:hover span {
+			 				color: rgba(255,255,255,1);
+			 			}
+
+
+					 		.color-facebook:hover {
+								background-color: rgba(68, 96, 157, 1);
+							}
+
+							.color-twitter:hover {
+								background-color: rgba(51, 204, 255, 1);
+							}
+
+							.color-youtube:hover {
+
+								background-color: rgba(202, 23, 38, 1);
+							}
+
+							.color-tumblr:hover {
+								background-color: rgba(40, 65, 90, 1);
+							}
+
+							.color-instagram:hover {
+								background-color: rgba(63, 109, 144, 1);
+							}
+
+							.color-mail:hover {
+								background-color: rgba(241, 197, 20, 1);
+							}
+
+										
+
+							.color-phone:hover {
+								background-color: rgba(71, 217, 97, 0.92);
+							}
+
+			#more-info {
+				flex: 1;
+				-webkit-flex: 1;
+			}
+
+
+				#footer-more-title {
+					text-align: center;
+					margin-bottom: 30px;
+				}
+
+					#more-info-wrap {
+						width: 100%;
+						margin: 0 auto;
+					}
+
+						#more-info-mail, #more-info-phone span {
+							display: block;
+							margin: 0 auto;
+							text-align: center;
+						}
+
+
+
+/*  Scroll-Up */
+
+	.scroll-up {
+		display: none;
+		position: fixed;
+		bottom: 25px;
+		right: 20px;
+		cursor: pointer;
+		font-size: 40px;
+		color: rgba(255,255,255,.7);
+		font-weight: 500;
+		text-shadow: rgba(0,0,0,1) 1px 1px;
+	}
+
+		.scroll-up:hover {
+			color: rgba(255,255,255,1);
+		}
+
+
+
+
+		
+
+
+

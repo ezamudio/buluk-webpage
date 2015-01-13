@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Iceland);
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 14px;
+}
+
+
+a {
+	color: rgba(0,0,0,0.7);
+	text-decoration: none;
+}
+
+
+
+body {
+	height: 120%;
+	background: rgba(209,209,209,1);
+background: -moz-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(179,179,179,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(209,209,209,1)), color-stop(100%, rgba(179,179,179,1)));
+background: -webkit-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(179,179,179,1) 100%);
+background: -o-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(179,179,179,1) 100%);
+background: -ms-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(179,179,179,1) 100%);
+background: linear-gradient(to bottom, rgba(209,209,209,1) 0%, rgba(179,179,179,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#b3b3b3', GradientType=0 );
+	position: relative;
+	
+}
+
+.logo {
+	width: 250px;
+	height: 190px;
+	background-image: url("../img/logos/buluk_logo.png");
+	margin: 0% 38% ;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-size: cover;
+	position: relative;
+
+
+}
+
+.title {
+	height: 55px;
+	text-align: center;
+	font-family: bold 'Iceland', cursive; 
+	font-size: 72px;
+	color: #fff;
+	text-shadow: rgb(150,150,150) 3px 3px 3px;
+}
+
+.slogan {
+	text-align: center;
+	font-family: bold 'Iceland', cursive; 
+	font-weight: bold;
+	text-shadow: rgb(150,150,150) 2px 2px 2px;
+	font-size: 22px;
+	color: #fff;
+}
+
+#warning-message {
+	margin: 30px auto;
+	margin-bottom: 40px;
+	width: 330px;
+	height: 250px;
+	text-align: center;
+		background: rgba(111,189,211,1);
+		background: -moz-linear-gradient(-45deg, rgba(111,189,211,1) 0%, rgba(87,175,199,1) 41%, rgba(61,149,174,1) 100%);
+		background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(111,189,211,1)), color-stop(41%, rgba(87,175,199,1)), color-stop(100%, rgba(61,149,174,1)));
+		background: -webkit-linear-gradient(-45deg, rgba(111,189,211,1) 0%, rgba(87,175,199,1) 41%, rgba(61,149,174,1) 100%);
+		background: -o-linear-gradient(-45deg, rgba(111,189,211,1) 0%, rgba(87,175,199,1) 41%, rgba(61,149,174,1) 100%);
+		background: -ms-linear-gradient(-45deg, rgba(111,189,211,1) 0%, rgba(87,175,199,1) 41%, rgba(61,149,174,1) 100%);
+		background: linear-gradient(135deg, rgba(111,189,211,1) 0%, rgba(87,175,199,1) 41%, rgba(61,149,174,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6fbdd3', endColorstr='#3d95ae', GradientType=1 );
+	border-radius: 20px;
+	box-shadow: rgb(150,150,150) 5px 5px 10px;
+}
+
+.message1{
+	display: block;
+	padding-top: 30px;
+	margin-bottom: 10px;
+}
+
+.message2 {
+	display: block;
+	margin-bottom: 30px
+}
+
+#buttoms {
+	text-align: center;
+	margin: 10px auto;
+	width: 240px;
+	height: 40px;
+	background: rgba(10,84,133,1);
+background: -moz-linear-gradient(left, rgba(10,84,133,1) 0%, rgba(0,104,184,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(10,84,133,1)), color-stop(100%, rgba(0,104,184,1)));
+background: -webkit-linear-gradient(left, rgba(10,84,133,1) 0%, rgba(0,104,184,1) 100%);
+background: -o-linear-gradient(left, rgba(10,84,133,1) 0%, rgba(0,104,184,1) 100%);
+background: -ms-linear-gradient(left, rgba(10,84,133,1) 0%, rgba(0,104,184,1) 100%);
+background: linear-gradient(to right, rgba(10,84,133,1) 0%, rgba(0,104,184,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a5485', endColorstr='#0068b8', GradientType=1 );
+	border-radius: 5px;
+}
+
+#text-links {
+	color: #fff;
+	display: inline-block; 
+	margin: 10px 10px;
+} 
+
+#text-links > a {
+	color: #fff;
+}
+

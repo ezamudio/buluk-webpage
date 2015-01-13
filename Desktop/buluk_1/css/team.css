@@ -1,0 +1,352 @@
+
+
+
+	/* Experiencias */
+
+		.experiences{
+			background-color: #fff;
+			padding-bottom: 80px;
+			clear: both;
+		}
+
+		.experiences-logo {
+			background-image: url("../img/logos/menu_icons/experiences2.png");
+			background-color: #019ee3;
+			background-size: 100px;
+			background-repeat: no-repeat;
+			border-radius: 50%;
+			position: relative;
+			background-position-y: 15px;
+			background-position-x: 13px;
+		}
+
+			.experiences-wrap, .info-grap {
+				max-width: 100%;
+				display: block;
+				position: relative;
+			}
+
+				.experiences-content {
+					max-width: 800px;
+					margin: 0 auto;
+				}
+
+					.exp-unit {
+						display: block;
+						width: 25%;
+						float: left;
+						margin: 0 4%;
+						position: relative;
+						padding-top: 18%;
+						overflow: hidden;
+						background-position: center center;
+						background-repeat: no-repeat;
+						background-size: cover;
+						cursor: pointer;
+					}
+
+						.exp-overlay {
+							position: absolute;
+							height: 50%;
+							bottom: -50%;
+							right: 0;
+							left: 0;
+							text-align: center;
+							display: flex;
+							background-color: rgba(2, 73, 89, 0.85);
+							align-content: space-between;
+							justify-content: space-around;
+						    align-items: center;
+						    transition: 0.5s;
+						    opacity: 0;
+						}
+
+							.exp-overlay strong {
+								padding: 0 20px;
+								color: #ccc;
+								font-weight: 200;
+								text-transform: uppercase;
+								font-size: 20px;
+								line-height: 1.2em;
+								flex: 1;
+							}
+
+					.exp-unit:hover .exp-overlay {
+						bottom: 0;
+						opacity: 1;
+					}
+
+
+					/* Experience Place Info */
+
+
+					.info-container {
+						max-width: 600px;
+						margin: 70px auto 0;
+						display: none;
+						color: #E8E8E8;
+						font-weight: 400;
+						text-align: justify;
+					} 
+
+						.info-container > h4 {
+							color: #E8E8E8;
+							text-align: center;
+							font-weight: 400;
+							text-transform: uppercase;
+							font-size: 22px;
+							line-height: 1.2em;
+							margin: 0 0 20px;
+						}
+
+							.place-close {
+								position: relative;
+								cursor: pointer;
+								top: -3px;
+								left: 10px;
+							}
+
+							.place-close span{
+								position: absolute;
+								cursor: pointer;
+								font-size: 30px;
+								color: rgba(255,255,255,.7);
+								font-weight: 500;
+								text-shadow: rgba(0,0,0,1) 1px 1px;
+							}
+
+								.place-close span:hover {
+									color: rgba(255,255,255,1);
+								}
+
+						.info-container img {
+							max-width: 100%;
+							margin-bottom: 20px;
+							margin-top: 20px;
+							transition: 1s;
+						}
+
+					
+
+
+	/* Galería */
+
+		.gallery {
+			background-color: #f4f4f4;
+			overflow-x: hidden;
+			clear: both;
+		}
+
+			.gallery-logo {
+				background-image: url("../img/logos/menu_icons/gallery.png");
+				background-color: #A52A2A;
+				background-size: 100px;
+				background-repeat: no-repeat;
+				border-radius: 50%;
+				position: relative;
+				background-position-y: 15px;
+				background-position-x: 13px;
+			}
+
+			.gallery-belt {
+				width: 200%;
+				position: relative;
+				display: inline-block;
+				left: 0%;
+				transition: 0.3s;
+			}
+
+				.thumb-wrap, .gallery-wrap {
+					width: 50%;
+					float: left;
+				}
+					.gallery-wrap {
+						padding-bottom: 60px;
+					}
+
+				.thumb-container {
+					max-width: 900px;
+					margin: 20px auto;
+					padding-bottom: 60px;
+				}
+
+					.thumb-unit {
+						display: block;
+						width: 25%;
+						float: left;
+						position: relative;
+						padding-top: 18%;
+						overflow: hidden;
+						background-position: center center;
+						background-repeat: no-repeat;
+						background-size: cover;
+						-webkit-perspective: 300px;
+						perspective: 300px;
+					}
+
+						@media screen and (max-width: 760px) {
+							.thumb-unit {
+								width: 50%;
+								padding-top: 26%;
+							}
+						}
+
+					.thumb-overlay {
+						position: absolute;
+						top: -50%;
+						bottom: inherit;
+						right: 0;
+						left: 0;
+						height: 100%;
+						text-align: center;
+						display: flex;
+						align-content: space-between;
+						justify-content: space-around;
+					    align-items: center;
+						background-color: rgba(2, 73, 89, 0.85);
+						-webkit-transition: 0.5s;
+						transition: 0.5s;
+						transform: rotateX(90deg);
+						transform-origin: center bottom;
+						opacity: 0;
+						cursor: pointer;
+					}
+
+						.thumb-overlay strong {
+							padding: 0 20px;
+							display: block;
+							color: #ccc;
+							font-weight: 200;
+							text-transform: uppercase;
+							font-size: 22px;
+							line-height: 1.2em;
+							flex: 1;
+
+						}
+
+						.thumb-unit:hover .thumb-overlay {
+							position: absolute;
+							top: 0px;
+							bottom: inherit;
+							right: 0;
+							left: 0;
+							transform: rotateX(0deg);
+							opacity: 1;
+						}
+
+
+		.gallery-container {
+			max-width: 600px;
+			margin: 0px auto;
+			display: none;
+		} 
+
+			.gallery-container img {
+				max-width: 100%;
+				margin-bottom: 20px;
+				margin-top: 20px;
+			}
+
+				.gallery-container > h4 {
+					color: #2d2d2d;
+					text-align: center;
+					font-weight: 400;
+					text-transform: uppercase;
+					font-size: 22px;
+					line-height: 1.2em;
+					margin: 0 0 20px;
+				}
+
+					.gallery-return {
+						cursor: pointer;
+						position: absolute;
+						top: -5px;
+					}
+
+						.gallery-return span {
+							font-size: 40px;
+							color: #2d2d2d;
+							opacity: .5;
+							font-weight: 500;
+						}
+
+						.gallery-return:hover span {
+							opacity: 1;
+						}
+
+			
+
+
+	/* Eventos */
+
+		.events {
+			background-color: #fff;
+			padding-bottom: 60px;
+		}
+	 		
+			.events-logo {
+				background-image: url("../img/logos/menu_icons/callendar.png");
+				background-size: cover;
+				background-color: #E4B320;
+				background-size: 120px;
+				background-repeat: no-repeat;
+				border-radius: 50%;
+				position: relative;
+				background-position-y: 18px;
+				background-position-x: 7px;
+			}
+		 		.events-content {
+		 			max-width: 960px;
+		 			margin: 0 auto;
+		 		}
+
+		 			.events-descript {
+		 				width: 70%;
+		 				margin: 0 auto;
+		 				text-align: justify;
+		 			}
+
+		 				@media screen and (max-width: 540px) {
+							.events-descript {
+								width: 90%;
+								margin: 0 auto;
+								text-align: justify;
+							}
+						}
+
+
+	/* Medios */
+
+		.media {
+			background-color: #f4f4f4;
+			padding-bottom: 80px;
+		}
+	 		
+			.media-logo {
+				background-image: url("../img/logos/menu_icons/briefcase.png");
+				background-color: rgb(69, 118, 153);
+				background-size: 100px;
+				background-repeat: no-repeat;
+				border-radius: 50%;
+				position: relative;
+				background-position-y: 15px;
+				background-position-x: 13px;
+			}
+		 		.media-content {
+		 			max-width: 960px;
+		 			margin: 0 auto;
+		 		}
+
+		 			.media-descript {
+		 				width: 70%;
+		 				margin: 0 auto;
+		 				text-align: justify;
+		 			}
+
+		 				@media screen and (max-width: 540px) {
+							.media-descript {
+								width: 90%;
+								margin: 0 auto;
+								text-align: justify;
+							}
+						}

@@ -1,0 +1,159 @@
+/* Header */
+
+	header {
+		width: 100%;
+		border-bottom: 1px solid rgba(0,0,0,7);	
+		padding-bottom: 30px;
+		background-image: url("../img/team1.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		
+	}
+
+		/* Logo de Buluk */
+
+			.logo {
+				width: 250px;
+				height: 190px;
+				position: relative;
+				left: -25px;
+				background-image: url("../img/logos/Buluk_logo.png");
+				margin: 0 auto;
+				background-size: cover;
+				border-color: 1px solid #000;
+			}
+
+			/* Título del Logo */
+
+				.title {
+					margin: 0 auto;
+					display: block;
+					height: 55px;
+					text-align: center;
+					font-family: bulukFaceFont; 
+					font-size: 42pt;
+					font-weight: 100;
+					text-shadow: rgba(0,0,0,1) 3px 3px 3px;
+					color: #fff;
+					margin-top: 0px;
+					margin-bottom: 10px;
+					letter-spacing: -1pt;
+
+				}
+
+				.slogan {
+					margin: 0 auto;
+					display: block;
+					text-align: center;
+					font-family: bulukFaceFont;
+					font-size: 16px;
+					color: #fff;
+					font-weight: 200;
+					text-shadow: rgba(0,0,0,1) 2px 2px 2px;
+					letter-spacing: -1pt;
+				}
+
+
+/* Menu de navegación */
+
+	nav {
+		width: 535px;
+		margin: 35px auto;
+		margin-bottom: 30px;
+	}
+
+
+		nav ul li {
+			width: 128px;
+			height: 128px;
+			background-color: #B9B9B9;
+			border: 1px solid rgba(0,0,0,1);
+			display: inline-block;
+			overflow: hidden;
+		}
+
+				nav ul li p {
+					width: 128px;
+					padding: 21px 0;
+					margin-top: 70px;
+					display: none;
+					position: absolute;
+					background: rgba(0,0,0,0.7);
+					border-top: #000 1px solid;
+					text-align: center;
+					font-size: 14px;
+					font-weight: 700;
+					cursor: pointer;
+					color: #fff;
+				}
+
+					nav a:hover p {
+						display: block;
+					}
+
+					nav a:hover li{
+						border: 1px solid #06b;
+					}
+
+					nav span {
+						display: none;
+					}
+
+					.menu_bar {
+						display: none;
+					}
+
+	/* Menu Icons */
+
+		#menu-about {
+			background-color: #059440;
+			background-image: url("../img/logos/menu_icons/buluk.png");
+			background-size: cover;
+		}
+
+		#menu-mision {
+			background-image: url("../img/logos/menu_icons/mision.png");
+			background-size: cover;
+			background-size: cover;
+			background-color: #1E3E71;
+		}
+
+		#menu-first {
+			background-image: url("../img/logos/menu_icons/first.png");
+			background-size: cover;
+			background-color: #E8E9EA;
+		}
+
+		#menu-experience {
+			background-image: url("../img/logos/menu_icons/experiences.png");
+			background-size: cover;
+			background-color: #521883;
+		}
+
+		#menu-gallery {
+			background-image: url("../img/logos/menu_icons/gallery.png");
+			background-size: cover;
+			background-color: #A52A2A;
+		}
+
+		#menu-events {
+			background-image: url("../img/logos/menu_icons/events.png");
+			background-size: cover;
+			background-color: #E4B320;
+		}
+
+		#menu-media {
+			background-image: url("../img/logos/menu_icons/medios.png");
+			background-size: cover;
+			background-color: rgb(69, 118, 153);
+		}
+
+		#menu-contact {
+			background-image: url("../img/logos/menu_icons/contact.png");
+			background-size: cover;
+			background-color: rgb(232, 85, 41);
+		}
